@@ -7,3 +7,6 @@ fs.readFile(__filename, function cb1(err, data) {
 });
 
 console.log('TEST');
+
+//callback nesting for every dependencies
+// not ideal

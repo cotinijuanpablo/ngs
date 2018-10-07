@@ -1,3 +1,5 @@
+//we upgrade the error into an exception treating it as a condition
+
 const path = require('path');
 const fs = require('fs');
 
@@ -11,4 +13,5 @@ files.forEach(file => {
   } catch (err) {
     console.log('File not found');
   }
+  //but any error be it file not foudn or anything else will be treat the same, this is not good
 });

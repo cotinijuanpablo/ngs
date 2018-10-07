@@ -1,3 +1,5 @@
+//system commands from within node
+//anything that can be done in the OS shell can be done here
 const { spawn } = require('child_process');
 
 // Print Working Directory

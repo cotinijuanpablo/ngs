@@ -1,3 +1,4 @@
+//OS is for general communication with the OS
 const os = require('os');
 
 console.log('OS platform:', os.platform());

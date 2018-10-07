@@ -1,4 +1,4 @@
-const http = require('http');
+const http = require('http'); //require --> manage dependencies
 
 const server = http.createServer((req, res) => {
   res.end('Hello World\n');

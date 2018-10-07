@@ -1,0 +1,4 @@
+npm outdated to check version that will be updated to
+npm update to update them
+nom i lodash@latest
+i can also put the version in latest

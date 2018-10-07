@@ -14,3 +14,5 @@ const newArray = [...restOfItems];
 const newObject = {
   ...person,
 };
+
+//nested bject are shallow copies, no deep copies (reference, not cloned)

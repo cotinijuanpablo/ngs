@@ -1,0 +1,23 @@
+remember npm install --production to ignore devDependencies
+
+X.Y.Z
+
+X is major, breakign changes
+Y is minor, backward compatible
+Z is patch, bug fixes
+
+~ most recent patch, the Z
+~1.2.3 most recent Z in 1.2.Z, will not update 1.3.0 E.G.
+
+^ most recent minor, the Y
+^1.2.3 most recent Y in 1.Y, will not update to 2.0.0 E.G.
+
+we can use the X also
+
+^1 = 1.x
+~1.2 = 1.2.X
+
+https://semver.npmjs.com/
+
+i also have the equal
+=1.2.3 and this is the same to 1.2.3

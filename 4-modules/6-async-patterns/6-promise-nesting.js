@@ -1,3 +1,5 @@
+// We jsut need to await, no nesting, mroe readable.
+
 const fs = require('fs').promises;
 
 async function main() {

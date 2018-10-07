@@ -1,3 +1,6 @@
+//An error is simply a problem, so its not really catch 
+//An exception is a condition that you usually catch
+
 const path = require('path');
 const fs = require('fs');
 

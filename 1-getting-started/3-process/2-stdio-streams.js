@@ -3,4 +3,6 @@ process.stdin.on('readable', () => {
   if (chunk !== null) {
     process.stdout.write(chunk);
   }
+  
+  // process.stdin.pipe(process.stdout)
 });

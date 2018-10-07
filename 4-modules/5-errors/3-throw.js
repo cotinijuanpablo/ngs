@@ -13,6 +13,8 @@ files.forEach(file => {
       console.log('File not found');
     } else {
       throw err;
+      //This throw is what node would have done if we did not have the try/catch
+      //This is the default behaviour, since we can no longer be sure of the state of a proces with an error
     }
   }
 });

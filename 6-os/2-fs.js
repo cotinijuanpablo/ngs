@@ -1,6 +1,8 @@
+//Work over file system
 /*
-
+  //This use buffer
   readFile(path[, options])
+  //this use stream, its better because it can read data  chunk by chunk
   createReadStream(path[, options])
 
   writeFile(file, data[, options])

@@ -1,3 +1,4 @@
+//Everything in JS is an Object, even functions
 class Person {
   constructor(name) {
     this.name = name;

@@ -11,10 +11,10 @@ function fetch (url) {
   });
 }
 
-fetch('https://www.javascript.com/')
-  .then(data => {
-    console.log(data.length);
-  });
+// fetch('https://www.javascript.com/')
+//   .then(data => {
+//     console.log(data.length);
+//   });
 
   (async function read() {
     const data = await fetch('https://www.javascript.com/');
